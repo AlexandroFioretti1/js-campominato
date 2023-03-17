@@ -4,45 +4,46 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /* reset css */
 
-
 /* region debug */
-header {
-    height: 50px;
-    background-color: cyan;
-}
-
-footer {
-    height: 50px;
-    background-color: grey;
-}
-
-a {
-    color: purple;
-}
-
 /* #End region debug */
-
 
 /* Region header */
 #play_button {
     background-color: white;
     height: 30px;
-    border: solid 0.5px ;
+    border: solid 0.5px;
     margin-top: 0.5rem;
-    
 }
-
 /* #End Region header */
 
 
 /* Region Main */
+main {
+    background-color: aquamarine;
+}
 
+#container_game {
+    display: flex;
+    justify-content: center;
+}
+
+td {
+    border: solid 1px black;
+    width: 50px;
+    text-align: center;
+    height: 50px;
+}
 /* #End Region Main */
 
-
 /* Region footer */
+footer {
+    display: flex;
+    justify-content: center;
+}
 
+a {
+    color: purple;
+}
 /* #End Region footer */
